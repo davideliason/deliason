@@ -1,0 +1,289 @@
+
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family:"Arvo";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Arvo";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: Oswald;
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+a.lpanel { float: left; color: white; font-size: 15px; font-family:"Wellfleet"; text-decoration: none; margin: 3px 11px; padding: 3px 1px; border:1px solid white;border-radius: 50%; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 30px;
+}
+
+#nav { width: 410px; float: right; margin-top: 20px; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+#code_portfolio_area {
+	width: 100%;
+	align: center;
+}
+
+.portfolio_area {
+	width: 23%;
+	border: 1px solid black;
+	float: left;
+	margin-left: 1%;
+}
+
+.portfolio_image {
+	height: 100px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+
+.portfolio_text {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+
+
+/*= DESCRIPTIVE INFO AND SOME ELEMENTS
+--------------------------------------------------------*/
+#pre-coding {
+	width: 30%;
+	float: left;
+}
+
+#pre-coding p {
+	font-family: 'Wellfleet';
+	font-size: .8em;
+	text-align: center;
+	padding: 0px 3%;
+}
+
+#coding {
+	width: 55%;
+	float: right;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+	border-radius: 25px;
+	padding: 2% 5%;
+}
+#coding img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#personal-hobbies {
+	width: 55%;
+	float: right;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 25px;
+	margin-top: 3%;
+	padding: 2% 5%;
+}
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+.quotes {   
+ font-family: 'Goudy Bookletter 1911', serif;
+   font-weight: normal;
+   font-size: 20px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+   
+ .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
+ .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
+ .quotes_container { width: 800px; margin: 0 auto; }
+ .quote-blue { font-family: "Wellfleet"; margin: 10px 0px 0px 100px; font-color: #0000FF; font-size: 15px;}
+
+#david-made-logo { background: url('../img/david-made-logo_100.png')no-repeat; width: 100px; height: 100px; margin: 0 auto; padding-bottom: 40px;position: relative; bottom: -5px;opacity: 0.5;}
+#david-made-quote { background: url('../img/inspired-to-make-good-white-box.png')no-repeat; width: 350px; height: 100px; margin: 10px auto 27px auto; }
+#david-photo { background: url('../img/me_bike_sf_background_150_150.jpg')no-repeat; width: 150px; height: 150px; margin: 0 auto; margin-bottom: 40px;position: relative; bottom: -5px;opacity: 0.8;border-radius: 20px; float: left; }
+#collaboration-logo { background: url('../img/collaboration_logo_100_93.png')no-repeat; width: 100px; height: 93px; margin: 0 auto;position: relative; bottom: -5px;opacity: 0.5; border-radius: 50%; border: 1px solid blue;}
+#collaboration-title {
+	font-size: 1em;
+	margin: 0 auto;
+	position: relative;
+	bottom: 45px;
+	left: 30%;
+	opacity: 0.5
+
+}
+/*= BUTTONS
+--------------------------------------------------------*/
+
+button.btn-know { 
+	padding: 15px 47px; 
+	margin: 40px 38.8%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 19px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.social-button {
+	padding: 10px 5px; 
+	margin: 1% 4%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 15px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#social-buttons {
+	margin-top: 5%;
+}
+
+#hobby_icons span {
+	margin: 1% 10%;
+}
+
+.btn-know:hover { background: #fff; color: transparent; }
+ul.built { list-style: none; margin: 0 auto; width: 730px; }
+.built li img{ float: left; padding-right: 34px; }
+
+.site-thumbnail {
+	width: 100px;
+	height: 100px;
+	border: 2px solid white;
+}
+
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+#slide1{
+	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: 330px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#slide3{
+	background: url(../img/slide3.png) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #fff;
+	color: #333333;
+	height: 330px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 240px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }

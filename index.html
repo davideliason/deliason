@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>David Eliason's Portfolio</title>
+       <link rel="stylesheet" href="css/style.css"/>
+ 	   <link rel="stylesheet" href="./css/font-awesome-4.4.0/css/font-awesome.min.css">
+  	   
+
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	
+<script>
+   
+	<!----- JQUERY FOR SLIDING NAVIGATION --->   
+	$(document).ready(function() {
+	  $('a[href*=#]').each(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+	    && location.hostname == this.hostname
+	    && this.hash.replace(/#/,'') ) {
+	      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+	      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+	       if ($target) {
+	         var targetOffset = $target.offset().top;
+
+	<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+	         $(this).click(function() {
+	            $("#nav li a").removeClass("active");
+	            $(this).addClass('active');
+	           $('html, body').animate({scrollTop: targetOffset}, 1000);
+	           return false;
+	         });
+	      }
+	    }
+	  });
+
+	});
+
+</script>
+
+
+ </head> 
+	
+<body>
+<div id="blog_link">
+   <a href="http://www.davethemaker.com" class="lpanel">Blog</a>
+</div>
+
+<header id="header">
+<div class="content">
+<div id="logo"><a href="http://www.david-made.com"> David Eliason</a></div>
+
+
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">About</a></li>
+		<li><a href="#slide3" title="Next Section">Code</a></li>
+		<li><a href="#slide4" title="Next Section">Collaborative</a></li>
+		<li><a href="#slide5" title="Next Section">IoT</a></li>
+
+	</ul>
+</nav>
+</div>
+</header>	
+
+	<div id="slide1">
+		<div class="content">
+			<div id="david-made-logo"> </div>
+            <h2>David-Made Designs</h2>
+		    <div id="david-made-quote"> </div>
+	       <div id="social-buttons">
+	      	 <a href="https://twitter.com/DavetheMaker"><button class="social-button"><i id="TwitterIcon" class="fa fa-twitter-square fa-lg padLeft"></i> Twitter</button></a>
+	      	 <a href="https://github.com/davethemaker"><button class="social-button"><i id="githubIcon" class="fa fa-github fa-lg padLeft"></i> Github</button></a>
+	      	 <a href="https://www.linkedin.com/in/davideliason
+"><button class="social-button"><i id="linkedinIcon" class="fa fa-linkedin-square fa-lg padLeft"></i> LinkedIn</button></a>
+	      	 <a href="https://www.facebook.com/makerdave"><button class="social-button"><i id="facebookIcon" class="fa fa-facebook-official fa-lg padLeft"></i> Facebook</button></a>
+	      	 <a href="https://www.instagram.com/davethemaker/"><button class="social-button"><i id="intagramIcon" class="fa fa-instagram fa-lg padLeft"></i> Instagram</button></a>
+	      	
+
+
+	      	</div>
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" >
+
+              <div id="pre-coding">
+                 <div id="david-photo"> </div>
+				 <div class="clear"></div>
+
+				<img src="img/paramedic-logo.png" width="80px" />
+				<p>Learned teamwork, stress-management as post-9/11 paramedic.</p>
+
+              	<img src="img/home-building-3d.jpg" width="80px" style="border:1px solid blue; border-radius:100%;"> </img>
+              	<p>Developed leadership, collaboration, and communication skills developing homes for disabled individuals.</p>
+             </div>
+
+			   <div id="coding">
+			     <img src="img/front-end-logo.png" width="100px" />
+			   	 <p>
+			   	 	I'm a web designer, developer, founder and entrepreneur based in Portland, Oregon. I'm currently building web and mobile applications while building coding proficiency through self-study.
+			   	 </p>
+			   	 <h5>Competences: </h5>
+					<ul>
+					  <li> Front-End: HTML5, CSS3, jQuery, Bootstrap, Angular.js</li>
+					  <li> Back-End: PHP, MySQL.</li>
+					  <li> In Progress: MongoDB, Express, Node.js, React.js</li>
+					 </ul>
+				  </p>
+			   </div>
+
+		       <div id="personal-hobbies">
+		         <div id="hobby_icons">
+					<span class="fa fa-motorcycle fa-lg"></span><span class="fa fa-coffee fa-lg"></span><span class="fa fa-bicycle fa-lg"></span><span class="fa fa-tree fa-lg"></span></p>
+		   		 </div>
+		   	 	 <p>I love Backpacking, Mountaineering, Packrafting, Bicycle Tours, Motorcycle trips, Sci-Fi, Coffeeshops</p>
+			
+	  	       </div> 
+		</div> 
+    </div> 
+	
+	
+   <div id="slide3">
+		<div class="content">
+		  <div class="content">
+		    <div id="david-made-logo"> </div>
+		      <div class="quotes_container">
+				<div id="code_portfolio_area">
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							 <a href="http://www.angularjsresources.thedavideliason.com"><img src="img/angularJS_image.png" width="100%"></a>
+						</div>
+						<div class="clear"></div>
+						<div class="portfolio_text">
+							<p>AngularJS, using factories, controllers, and directives <a href="https://github.com/davethemaker/angularResources"><span class="fa fa-github fa-lg"></span></a></p>
+
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.favoritebooks.thedavideliason.com/"><img src="img/favorite-books_300.png" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> JS Objects <a href="https://github.com/davethemaker/favorite_books"><span class="fa fa-github fa-lg"></span></a> </p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.newquotes.thedavideliason.com/"><img src="img/newQuotes_300.png" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> JSON, AJAX, jQuery <a href="https://github.com/davethemaker/newQuotes"><span class="fa fa-github fa-lg"></a></span><span> </span><a href="http://codepen.io/David_Eliason/pen/oxLVRZ"><span class="fa fa-codepen fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.weatherapp.thedavideliason.com/"><img src="img/weatherapp_300.jpg" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> JSON, AJAX, jQuery,API <a href="https://github.com/davethemaker/weatherapp"><span class="fa fa-github fa-lg"></a></span><span> </span><a href="http://codepen.io/David_Eliason/pen/vGxbGe"><span class="fa fa-codepen fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.wikipediaviewer.thedavideliason.com"><img src="img/wikipediaViewer_300.jpg" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> JSON, AJAX, jQuery, API <a href="https://github.com/davethemaker/wikipediaViewer"><span class="fa fa-github fa-lg"></a></span><span> </span><a href="http://codepen.io/David_Eliason/pen/RaVNpa"><span class="fa fa-codepen fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.mypetInfo.thedavideliason.com"><img src="img/petInfo_300.jpg" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> PHP,MySQl:insert <a href="https://github.com/davethemaker/petInfo"><span class="fa fa-github fa-lg"></a></span><span> </span></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://www.emaillist.thedavideliason.com"><img src="img/email_list.jpg" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p> PHP,MySQl:CRUD <a href="https://github.com/davethemaker/emailList"><span class="fa fa-github fa-lg"></a></span><span> </span></p>
+						</div>
+		       		</div>
+
+
+		       </div>
+		  </div> 
+	  </div> 
+		</div> 
+    </div> 
+	
+	
+	<div id="slide4">
+	  <div class="content">
+		  <div id="collaboration-logo"> </div>
+		    <div id="collaboration-title">Working together</div>
+		    <div class="quotes_container">
+				<div id="code_portfolio_area">
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://pdx-adventures.herokuapp.com/"><img src="img/pdx_adventures_300.png" width="100%" /></a>
+						</div>
+						<div class="portfolio_text">
+							<p>PHP, MySQL, Twig <a href="https://github.com/BabaYaga64/PDXAdventures"><span class="fa fa-github fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://favorite-albums.thedavideliason.com/#/list"><img src="img/favorite_albums.png" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p>JS, AngularJS, Firebase <a href="https://github.com/davethemaker/favorite-albums_angular-js"><span class="fa fa-github fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       		<div class="portfolio_area">
+						<div class="portfolio_image">
+							<a href="http://addressbook.thedavideliason.com/address-book.html"><img src="img/address-book_4_13_300.png" width="100%"></img></a>
+						</div>
+						<div class="portfolio_text">
+							<p>MVC using Angular.js <a href="https://github.com/davethemaker/address-book_4_13"><span class="fa fa-github fa-lg"></span></a></p>
+						</div>
+		       		</div>
+
+		       </div>
+		  </div> 
+	  </div> 
+    </div> 
+	
+	
+	<div id="slide5">
+		<div class="content">
+            <div class="quotes_container">
+		      <h3 class="quotes">IoT Portfolio.</h3>
+		      <div id="code_portfolio_area">
+		       	<a href="http://www.david-made.com"><p style="margin-left: 15%;">IoT Coming Soon, visit store?</p></a>
+
+		      </div>
+		    </div> 
+			<div id="copyright">Copyright 2016 David Eliason</div>
+		</div>
+	</div> 
+		
+
+</div> 
+	
+
+</body>
+</html>
