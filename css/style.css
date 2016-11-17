@@ -247,7 +247,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2, #slide3,#slide4, #slide5{ width: 100%; height: 500px;}
+#slide1, #slide2, #slide3,#slide4, #slide5{ width: 100%; height: 630px;}
 
 #slide1{
 	background:url('../img/davideliason_bike_300.jpg') 50% 0 no-repeat fixed;
@@ -262,26 +262,26 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	color: #333333;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 200px 0;
+	padding: 80px 0;
 }
 
 #slide3{
 	background: url(../img/slide3.png) 50% 0 no-repeat fixed;
 	color: #fff;
-	padding: 170px 0 0 0;	
+	padding: 80px 0;
 	background-size: cover;
 }
 
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	padding: 200px 0;
+	padding: 80px 0;
 }
 
 #slide5{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
 	margin: 0 auto;
-	padding: 250px 0;
+	padding: 80px 0;
 	color: #fff;
 	background-size: cover;
 }
