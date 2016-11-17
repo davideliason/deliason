@@ -253,7 +253,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background:url('../img/davideliason_bike_300.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	/*padding: 200px 0 260px 0;*/
+	padding: 180px 20px;
 	background-size: cover;
 }
 
