@@ -177,7 +177,7 @@ a.rpanel:hover{ color: #fff; }
    
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
- .quotes_container { width: 800px; margin: 0 auto; }
+ .quotes_container { width: 100%; margin: 0 auto; }
  .quote-blue { font-family: "Wellfleet"; margin: 10px 0px 0px 100px; font-color: #0000FF; font-size: 15px;}
 
 #david-made-logo { background: url('../img/david-made-logo_100.png')no-repeat; width: 100px; height: 100px; margin: 0 auto; padding-bottom: 40px;position: relative; bottom: -5px;opacity: 0.5;}
