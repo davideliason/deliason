@@ -101,7 +101,13 @@ a.rpanel:hover{ color: #fff; }
 	margin-left: 1%;
 }
 
-.portfolio_image {
+.work_box {
+	height: 68px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+/*.portfolio_image {
 	height: 100px;
 	width: 100%;
 	display: inline-block;
@@ -119,6 +125,10 @@ a.rpanel:hover{ color: #fff; }
 	color: white;
 	text-align: center;
 	font-size: 0.8em;
+}*/
+
+.black {
+	color: black;
 }
 
 
@@ -247,7 +257,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2, #slide3,#slide4, #slide5{ width: 100%; height: 630px;}
+#slide1, #slide2, #slide3,#slide4, #slide5{ width: 100%; height: 650px;}
 
 #slide1{
 	background:url('../img/davideliason_bike_300.jpg') 50% 0 no-repeat fixed;
@@ -268,9 +278,10 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide3{
 	/*background: url(../img/slide3.png) 50% 0 no-repeat fixed;*/
+	background-color: #fff;
 	color: #fff;
 	padding: 80px 0;
-	background-size: cover;
+	/*background-size: cover;*/
 }
 
 #slide4{
