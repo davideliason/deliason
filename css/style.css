@@ -76,7 +76,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.6; font-size: 12px; text-decoration: none; font-family: 'Wellfleet'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
