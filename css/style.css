@@ -48,7 +48,7 @@ h3 {
 	float: right;
 }
 .center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 960px;}
+.content{ margin: 0 auto; width: 95%;}
 .clear { clear: both; }
 a.lpanel { float: left; color: white; font-size: 15px; font-family:"Wellfleet"; text-decoration: none; margin: 3px 11px; padding: 3px 1px; border:1px solid white;border-radius: 50%; }
 a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
@@ -82,10 +82,10 @@ a.rpanel:hover{ color: #fff; }
 #nav li{
 	margin-top: 9px;	
 	float: left;
-	padding-left: 21px;
+	padding-right: 5%;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 12px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.8; font-size: 12px; text-decoration: none; font-family: 'Wellfleet'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
@@ -247,11 +247,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2{ width: 100%; }
+#slide1, #slide2, #slide3,#slide4, #slide5{ width: 100%; height: 500px;}
+
 #slide1{
 	background:url('../img/davideliason_bike_300.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
@@ -260,7 +260,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background-color: #fff;
 	color: #333333;
-	height: 330px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
@@ -269,7 +268,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide3{
 	background: url(../img/slide3.png) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
 	padding: 170px 0 0 0;	
 	background-size: cover;
 }
@@ -277,13 +275,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 330px;
 	padding: 200px 0;
 }
 
 #slide5{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-	height: 240px;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
