@@ -40,8 +40,13 @@ h3 {
 	position: relative;
 }
 
+.position-left {
+	float: left;
+}
 
-
+.position-right {
+	float: right;
+}
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px;}
 .clear { clear: both; }
@@ -62,7 +67,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo a { color: #fff; text-decoration: none; float: left; padding-left: 10px; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;
