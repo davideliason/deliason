@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-   font-family: Oswald;
+   font-family: "Oswald";
    font-weight: normal;
    font-size: 16px;
    text-align: center;
@@ -92,10 +92,12 @@ a.rpanel:hover{ color: #fff; }
 #code_portfolio_area {
 	width: 100%;
 	align: center;
-	border: 2px solid red;
+	padding-top: 15px;
+	/*border: 2px solid red;*/
 }
 
 .portfolio_area {
+	padding-top: 20px;
 	width: 23%;
 	border: 1px solid black;
 	float: left;
