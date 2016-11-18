@@ -26,7 +26,7 @@ h2 {
    text-align: center;
    color: #fff;
    margin: 0;
-	padding: 0;
+	padding: 5px 0px;
 }
 
 h3 {
@@ -141,6 +141,11 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 5px;
 }
 
+#slide2 img {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
 
 /*= DESCRIPTIVE INFO AND SOME ELEMENTS
