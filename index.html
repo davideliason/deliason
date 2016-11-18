@@ -18,9 +18,13 @@
     <script>
 		<!----- JQUERY FOR SLIDING NAVIGATION --->   
 		$(document).ready(function() {
-			$( function() {
-    $( "#accordion" ).accordion();
-  } );
+			$( function() {  // here lies the function call for accordion widget
+               $( "#accordion" ).accordion();
+               $( "#accordion2" ).accordion();
+               $( "#accordion3" ).accordion();
+               $( "#accordion4" ).accordion();
+
+                           } );
 		  $('a[href*=#]').each(function() {
 		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		    && location.hostname == this.hostname
@@ -114,24 +118,54 @@
 
 			       		<div class="portfolio_area">
 			       		   <h2 class="black">Code/IoT</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
+			       		   <div id="accordion1" class="black">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
 			       		</div>   
 							<!-- <div class="portfolio_image">
 								 <a href="http://www.angularjsresources.thedavideliason.com"><img src="img/angularJS_image.png" width="100%"></a>
@@ -144,24 +178,54 @@
 
 			       		<div class="portfolio_area">
 			       		 <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">Reactff stack</p>
-			       		   </div>
+			       		  <div id="accordion2" class="black">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
 							<!-- <div class="portfolio_image">
 								<a href="http://www.favoritebooks.thedavideliason.com/"><img src="img/favorite-books_300.png" width="100%"></img></a>
 							</div>
@@ -172,24 +236,54 @@
 
 			       		<div class="portfolio_area">
 			       		     <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">Reactff stack</p>
-			       		   </div>
+			       		   <div id="accordion3" class="black">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
 							<!-- <div class="portfolio_image">
 								<a href="http://www.newquotes.thedavideliason.com/"><img src="img/newQuotes_300.png" width="100%"></img></a>
 							</div>
@@ -201,7 +295,7 @@
 			       		<div class="portfolio_area">
 			       		   <h2 class="black">hi</h2>
 			       		    <!-- <div class="work_box"> -->
-			       		   		<div id="accordion" class="black">
+			       		   		<div id="accordion4" class="black">
   <h3>Section 1</h3>
   <div>
     <p>
