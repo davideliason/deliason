@@ -245,7 +245,7 @@ button.btn-know {
 
 .social-button {
 	padding: 3%; 
-	margin: 1% 4%;
+	margin: 1% 3%;
 	text-align: center;
 	border: 2px solid #fff; 
 	color: #fff; 
@@ -258,7 +258,7 @@ button.btn-know {
 }
 
 #social-buttons {
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 #hobby_icons span {
