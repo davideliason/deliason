@@ -92,6 +92,7 @@ a.rpanel:hover{ color: #fff; }
 #code_portfolio_area {
 	width: 100%;
 	align: center;
+	border: 2px solid red;
 }
 
 .portfolio_area {
@@ -99,12 +100,15 @@ a.rpanel:hover{ color: #fff; }
 	border: 1px solid black;
 	float: left;
 	margin-left: 1%;
+	height: 700px;
 }
 
 .work_box {
 	height: 68px;
 	width: 100%;
 	border: 1px solid black;
+	margin-top: 11px;
+	padding-left: 5px;
 }
 
 /*.portfolio_image {
@@ -129,6 +133,10 @@ a.rpanel:hover{ color: #fff; }
 
 .black {
 	color: black;
+}
+
+.skill_box {
+	margin-top: 5px;
 }
 
 

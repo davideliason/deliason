@@ -5,7 +5,11 @@
    <title>David Eliason </title>
    <link rel="stylesheet" href="css/style.css"/>
    <link rel="stylesheet" href="./css/font-awesome-4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/jquery-ui.css">
+
    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+   <script type="text/javascript" src="js/jquery-ui.js"></script>
+
    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -14,6 +18,9 @@
     <script>
 		<!----- JQUERY FOR SLIDING NAVIGATION --->   
 		$(document).ready(function() {
+			$( function() {
+    $( "#accordion" ).accordion();
+  } );
 		  $('a[href*=#]').each(function() {
 		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		    && location.hostname == this.hostname
@@ -106,7 +113,7 @@
 					<div id="code_portfolio_area">
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
+			       		   <h2 class="black">Code/IoT</h2>
 			       		   <div class="work_box">
 			       		   		<p class="black">MEAN stack</p>
 			       		   </div>
@@ -119,6 +126,13 @@
 			       		   <div class="work_box">
 			       		   		<p class="black">React stack</p>
 			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">DB stack</p>
+			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">React stack</p>
+			       		   </div>
+			       		</div>   
 							<!-- <div class="portfolio_image">
 								 <a href="http://www.angularjsresources.thedavideliason.com"><img src="img/angularJS_image.png" width="100%"></a>
 							</div>
@@ -127,10 +141,9 @@
 								<p>AngularJS, using factories, controllers, and directives <a href="https://github.com/davethemaker/angularResources"><span class="fa fa-github fa-lg"></span></a></p>
 
 							</div> -->
-			       		</div>
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
+			       		 <h2 class="black">Code</h2>
 			       		   <div class="work_box">
 			       		   		<p class="black">MEAN stack</p>
 			       		   </div>
@@ -142,6 +155,12 @@
 			       		   </div>
 			       		   <div class="work_box">
 			       		   		<p class="black">React stack</p>
+			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">DB stack</p>
+			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">Reactff stack</p>
 			       		   </div>
 							<!-- <div class="portfolio_image">
 								<a href="http://www.favoritebooks.thedavideliason.com/"><img src="img/favorite-books_300.png" width="100%"></img></a>
@@ -152,7 +171,7 @@
 			       		</div>
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
+			       		     <h2 class="black">Code</h2>
 			       		   <div class="work_box">
 			       		   		<p class="black">MEAN stack</p>
 			       		   </div>
@@ -164,6 +183,12 @@
 			       		   </div>
 			       		   <div class="work_box">
 			       		   		<p class="black">React stack</p>
+			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">DB stack</p>
+			       		   </div>
+			       		   <div class="work_box">
+			       		   		<p class="black">Reactff stack</p>
 			       		   </div>
 							<!-- <div class="portfolio_image">
 								<a href="http://www.newquotes.thedavideliason.com/"><img src="img/newQuotes_300.png" width="100%"></img></a>
@@ -174,19 +199,57 @@
 			       		</div>
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
+			       		   <h2 class="black">hi</h2>
+			       		    <!-- <div class="work_box"> -->
+			       		   		<div id="accordion" class="black">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+			       		 <!--   </div> -->
 							<!-- <div class="portfolio_image">
 								<a href="http://www.weatherapp.thedavideliason.com/"><img src="img/weatherapp_300.jpg" width="100%"></img></a>
 							</div>
@@ -195,72 +258,33 @@
 							</div> -->
 			       		</div>
 
-			       		<div class="portfolio_area">
-			       		    <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-							<!-- <div class="portfolio_image">
+			       		<!-- <div class="portfolio_area">
+							<div class="portfolio_image">
 								<a href="http://www.wikipediaviewer.thedavideliason.com"><img src="img/wikipediaViewer_300.jpg" width="100%"></img></a>
 							</div>
 							<div class="portfolio_text">
 								<p> JSON, AJAX, jQuery, API <a href="https://github.com/davethemaker/wikipediaViewer"><span class="fa fa-github fa-lg"></a></span><span> </span><a href="http://codepen.io/David_Eliason/pen/RaVNpa"><span class="fa fa-codepen fa-lg"></span></a></p>
-							</div> -->
+							</div>
 			       		</div>
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-							<!-- <div class="portfolio_image">
+							<div class="portfolio_image">
 								<a href="http://www.mypetInfo.thedavideliason.com"><img src="img/petInfo_300.jpg" width="100%"></img></a>
 							</div>
 							<div class="portfolio_text">
 								<p> PHP,MySQl:insert <a href="https://github.com/davethemaker/petInfo"><span class="fa fa-github fa-lg"></a></span><span> </span></p>
-							</div> -->
+							</div>
 			       		</div>
 
 			       		<div class="portfolio_area">
-			       		   <h2 class="black">Code</h2>
-			       		   <div class="work_box">
-			       		   		<p class="black">MEAN stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">JS stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">DB stack</p>
-			       		   </div>
-			       		   <div class="work_box">
-			       		   		<p class="black">React stack</p>
-			       		   </div>
-							<!-- <div class="portfolio_image">
+							<div class="portfolio_image">
 								<a href="http://www.emaillist.thedavideliason.com"><img src="img/email_list.jpg" width="100%"></img></a>
 							</div>
 							<div class="portfolio_text">
 								<p> PHP,MySQl:CRUD <a href="https://github.com/davethemaker/emailList"><span class="fa fa-github fa-lg"></a></span><span> </span></p>
-							</div> -->
+							</div>
 			       		</div>
-
+ -->
 
 			       </div>
 			  </div> 
