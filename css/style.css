@@ -10,7 +10,7 @@ body{
 }
 
 h1 { 
-    font-family:"Arvo";
+    font-family: 'Josefin Sans', sans-serif;
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family:'Josefin Sans', sans-serif;
    font-weight: normal;
    font-size: 40px;
    text-align: center;
