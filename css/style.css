@@ -47,6 +47,14 @@ h3 {
 .position-right {
 	float: right;
 }
+
+.position-center {
+	padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em 
+}
+
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 95%;}
 .clear { clear: both; }
