@@ -141,8 +141,8 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 5px;
 }
 
-#slide2 img {
-	 display: block;
+#slide2 img, #slide3 img, #slide4 img, #slide5 img {
+	display: block;
     margin-left: auto;
     margin-right: auto
 }
