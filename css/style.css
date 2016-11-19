@@ -155,7 +155,11 @@ a.rpanel:hover{ color: #fff; }
     margin-right: auto
 }
 
+#gallery-section img {
+	 float: left;
+	 margin-top: 5%;
 
+}
 
 
 /*= DESCRIPTIVE INFO AND SOME ELEMENTS
