@@ -317,7 +317,13 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
+	margin: 0 auto;
 	padding: 80px 0;
+}
+
+#slide4 h2 {
+	float: left;
+
 }
 
 #slide5{
