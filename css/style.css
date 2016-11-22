@@ -9,6 +9,16 @@ body{
 	width: 100%;
 }
 
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.oswald {
+   font-family: "Oswald";
+	
+}
+
 h1 { 
     font-family: 'Josefin Sans', sans-serif;
 	font-weight:normal;
@@ -79,7 +89,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 450px; float: right; margin-top: 20px; }
-#logo a { color: #fff; text-decoration: none; float: left; padding-left: 10px; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo a { color: #fff; text-decoration: none; float: left; padding-left: 10px; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Josefin Sans"; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;
