@@ -18,6 +18,12 @@ body{
    font-family: "Oswald";
 	
 }
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 
 h1 { 
     font-family: 'Josefin Sans', sans-serif;
