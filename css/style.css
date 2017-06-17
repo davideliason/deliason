@@ -107,7 +107,7 @@ a.rpanel:hover{ color: #fff; }
 #nav li{
 	margin-top: 9px;	
 	float: left;
-	padding-right: 5%;
+	padding-right: 2%;
 }
 
 #nav li a { color: #fff; opacity:0.8; font-size: 12px; text-decoration: none; font-family: 'Wellfleet'; }
