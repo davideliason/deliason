@@ -81,6 +81,5 @@ $(document).ready(function(){
 		    overlayClass : 'animsition-overlay-slide',
 		    overlayParentElement : 'body'
   	});
- alert("hi");
 
 })
