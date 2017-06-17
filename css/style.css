@@ -94,7 +94,8 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 450px; float: right; margin-top: 20px; }
-#sloganLogo {float: left; padding-left: 10px; margin-top: 25px;}
+#sloganLogo {float: left; padding-left: 10px; margin-top: 15px; padding-bottom: 15px;}
+#slogan {color: white; opacity: 0.4}
 #logo a { color: #fff; font-size: 35px;  color: #fff; font-family:"Josefin Sans"; font-weight: bold; }
 #nav ul{
 	list-style: none;
