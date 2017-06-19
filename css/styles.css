@@ -15,6 +15,21 @@ body {
 	padding-right:10px;
 }
 
+.socialMediaLinks {
+	position: absolute;
+	left: 35%;
+	bottom: 30px;
+}
+
+.socialMediaLinks ul {
+	list-style-type: none;
+}
+
+.socialMediaLinks li {
+	display: inline;
+	padding-right:10px;
+}
+
 #introPic {
 	margin-top: 70px; 
 }
