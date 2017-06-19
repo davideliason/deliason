@@ -1,3 +1,3 @@
 # [David Eliason](http://www.deliason.com)
-## Repo for personal website
-### Built originally in 2015, remade June 2017
+## Repo for personal website (v.2.0)
+### v.1.0 2015

@@ -1,0 +1,20 @@
+body {
+	background-color: rgba(57, 150, 154, 0.39);
+}
+
+.navbar {
+	float: right;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar li {
+	display: inline;
+	padding-right:10px;
+}
+
+#introPic {
+	margin-top: 70px; 
+}
