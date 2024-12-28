@@ -80,7 +80,7 @@ h2 {
 .smallText span,
 .smallText p,
 .smallText a {
-  font-size: 0.35cm;
+  font-size: 0.30cm;
 }
 
 .leftPanel .smallText,
@@ -88,11 +88,11 @@ h2 {
 .leftPanel .smallText span,
 .leftPanel .smallText p,
 .smallText a {
-  font-size: 0.45cm;
+  font-size: 0.35cm;
 }
 
 .contactIcon {
-  width: 0.5cm;
+  width: 0.4cm;
   text-align: center;
 }
 
