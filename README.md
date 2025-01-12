@@ -9,7 +9,7 @@ GitHub Action workflows are what I'm working on right now!
 1. $ cd Documents/ folder
 2. $ cd deliason/ folderr
 3. make any edits to the website data files
-4. add, commit, and push edits to the github repositiory
+4. add, commit, and push edits to the github repositiory. Remember the branch name is master, not main.
 5. There is a Github Action attached to this repo, configured in such a way 
 that when a commit pushed to the Github repositiory, those same files (including the changes) are uploaded to the s3 bucket. So, push the commit and refresh the browser and enjoy!
 
