@@ -1,9 +1,6 @@
 /* Fonts */
 .header {
-            background: url('img/cloud_LI_banner_v1.png') no-repeat;                            
-            background-size: 100% 100%;
-            width: 100%;
-            display: inline-block;
+            width: 500px, 
             height: 300px;
                     }
 
