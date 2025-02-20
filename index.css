@@ -1,8 +1,14 @@
 /* Fonts */
 .header {
-            width: 500px, 
-            height: 300px;
+        {
+                            width: 100%; /* Full width */
+                                        max-width: 1584px; /* Keep the original max width */
+                                                    height: auto; /* Maintain aspect ratio */
+                                                                display: block; /* Remove extra space */
+                                                                            margin: 0 auto; /* Center align */
+                                                                                    }
                     }
+
 
 /* Family */
 h1 {
